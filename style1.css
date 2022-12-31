@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(backimg2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.logo {
+    width: 112px;
+    height: auto;
+    padding: 37px 34px;
+    border-radius: 5px;
+}
+.navbar ul{
+    float: right;
+    margin: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;      
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: wheat;
+    padding: 6px 13px;
+    font-size: 20px ;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active ,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 5px;
+}
+.wrapper .centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.centre h1{
+    color: wheat;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.centre h2{
+    color: wheat;
+    font-size: 70px;
+    font-weight: bold;
+    width: 870px;
+    margin-top: 10px;
+    text-align: center;
+}
+.centre .buttons{
+       margin: 35px 280px;
+       text-align: center;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    /* background: rgb(175, 45, 45); */
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .4s                                                                                 ;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #922727;
+}
