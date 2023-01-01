@@ -10,13 +10,13 @@
     height: 100vh;
 
 }
-
+  
 .navbar {  
     height: 100px;
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
-} 
+}
 
 .logo {
     width: 112px;
